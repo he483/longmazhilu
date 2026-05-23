@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>龙马职路 - 为商科学生量身定制的实习平台</title>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-horse"></i>
+                <span>龙马职路</span>
+            </a>
+            <nav class="nav" id="nav">
+                <a href="index.html" class="nav-link active">首页</a>
+                <a href="jobs.html" class="nav-link">找岗位</a>
+                <a href="skills.html" class="nav-link">学技能</a>
+                <a href="alumni.html" class="nav-link">问校友</a>
+                <a href="contact.html" class="nav-link">联系我们</a>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">为商科学生量身定制的实习平台</h1>
+                <p class="hero-subtitle">聚焦商科实习痛点，激活 5 万+中财校友资源，连接学校、学生、企业与校友</p>
+                <a href="contact.html" class="btn btn-primary">
+                    <i class="fas fa-qrcode"></i>
+                    点击关注公众号
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">50000+</span>
+                    <span class="stat-label">校友资源</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">40%</span>
+                    <span class="stat-label">内推岗位占比</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-label">合作企业</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">核心功能</h2>
+                <p class="section-desc">三大核心业务模块，助力商科学子职业发展</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>找岗位</h3>
+                    <p>精选优质实习岗位，覆盖金融、咨询、互联网等热门行业，支持多维度筛选，精准匹配你的需求</p>
+                    <a href="jobs.html" class="feature-link">
+                        查看岗位 <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>学技能</h3>
+                    <p>实战课程助力提升核心竞争力，从简历撰写到行研报告，从数据分析到面试技巧</p>
+                    <a href="skills.html" class="feature-link">
+                        开始学习 <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>问校友</h3>
+                    <p>连接5万+中财校友资源，校友内推池、实名问答社区，定向内推直达目标岗位</p>
+                    <a href="alumni.html" class="feature-link">
+                        了解更多 <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>开启你的职业之旅</h2>
+            <p>关注公众号，获取最新岗位信息和求职干货</p>
+            <a href="contact.html" class="btn btn-primary">
+                <i class="fas fa-qrcode"></i>
+                立即关注
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <i class="fas fa-horse"></i>
+                        <span>龙马职路</span>
+                    </a>
+                    <p class="mission">"让每一份商科才华皆有其位"</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>快速导航</h4>
+                        <a href="index.html">首页</a>
+                        <a href="jobs.html">找岗位</a>
+                        <a href="skills.html">学技能</a>
+                        <a href="alumni.html">问校友</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>联系我们</h4>
+                        <a href="mailto:longmazhilu@163.com">longmazhilu@163.com</a>
+                        <a href="contact.html">微信公众号</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 龙马职路 All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="toast" id="toast">
+        <i class="fas fa-info-circle"></i>
+        <span id="toastMessage"></span>
+    </div>
+
+    <script src="js/common.js"></script>
+</body>
+</html>
